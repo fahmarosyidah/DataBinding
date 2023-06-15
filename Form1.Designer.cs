@@ -389,7 +389,7 @@ namespace DataBinding
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(873, 72);
+            this.button2.Location = new System.Drawing.Point(878, 72);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(95, 70);
             this.button2.TabIndex = 15;
