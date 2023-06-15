@@ -303,6 +303,7 @@ namespace DataBinding
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(800, 585);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox5);
@@ -315,6 +316,7 @@ namespace DataBinding
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.bindingNavigator1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form4";
             this.Text = "Teknologi Informasi UMY";
             this.Load += new System.EventHandler(this.Form4_Load);

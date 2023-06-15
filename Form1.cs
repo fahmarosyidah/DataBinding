@@ -37,7 +37,6 @@ namespace DataBinding
         {
             Form3 form3 = new Form3();
 
-            // Menampilkan Form2
             form3.Show();
             this.Hide();
         }
@@ -46,7 +45,6 @@ namespace DataBinding
         {
             Form4 form4 = new Form4();
 
-            // Menampilkan Form2
             form4.Show();
             this.Hide();
         }

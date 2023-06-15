@@ -117,6 +117,7 @@ namespace DataBinding
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label7);
             this.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.mahasiswaBindingSource, "PhoneMhs", true));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Teknologi Informasi";
             this.Load += new System.EventHandler(this.Form1_Load);
