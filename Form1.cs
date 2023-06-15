@@ -50,5 +50,10 @@ namespace DataBinding
         {
 
         }
+
+        private void bindingNavigatorMovePreviousItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
