@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace DataBinding
 {
     public partial class Form1 : Form
@@ -26,34 +27,28 @@ namespace DataBinding
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void label7_Click(object sender, EventArgs e)
         {
-
+            
         }
 
-        private void bindingNavigator1_RefreshItems(object sender, EventArgs e)
-        {
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+
+            // Menampilkan Form2
+            form3.Show();
+            this.Hide();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button2_Click_1(object sender, EventArgs e)
         {
+            Form4 form4 = new Form4();
 
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void bindingNavigatorMovePreviousItem_Click(object sender, EventArgs e)
-        {
-
+            // Menampilkan Form2
+            form4.Show();
+            this.Hide();
         }
     }
 }
